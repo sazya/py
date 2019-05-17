@@ -7,4 +7,4 @@ for i in range(N):
 
 for i in range(Q):
     l, r = map(int, input().split())
-    print(t[r-1] - t[l-1])
+print(t[r-1] - t[l-1])
